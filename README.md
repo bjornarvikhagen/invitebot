@@ -1,4 +1,4 @@
-# Discord Invite Bot
+# Invitebot for discord
 
 This Discord bot is designed to listen for reactions on messages within a Discord server. When a user reacts to a message with a specific emoji, the bot creates a one-time, non-expiring invite link to the server and sends it to the user via direct message (DM). Purposed for an exclusive community of traders on discord where all members can invite excactly one other person to join.
 
@@ -18,7 +18,7 @@ This Discord bot is designed to listen for reactions on messages within a Discor
 1. **Install Dependencies**: Run `npm install` to install required dependencies.
 2. **Configuration**:
    - Set the `myToken` variable in the code to your Discord Bot Token.
-3. **Running the Bot**: Use `node yourScriptName.js` to start the bot.
+3. **Running the Bot**: Use `node bot.js` to start the bot.
 
 ## Usage
 
@@ -34,13 +34,6 @@ This Discord bot is designed to listen for reactions on messages within a Discor
 
 ## Note
 
-- Ensure the bot has permission to create invites and send DMs to users.
+- Ensure the bot has permission to create invites and send DMs to users in the discord dev dashboard
 - The bot uses partials to handle messages, channels, reactions, and users that may not be cached.
 
-## Contributing
-
-Contributions are welcome. Please open an issue or pull request if you have suggestions or improvements.
-
-## License
-
-This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
