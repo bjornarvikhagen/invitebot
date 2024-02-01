@@ -25,7 +25,12 @@ This Discord bot is designed to listen for reactions on messages within a Discor
 - The bot starts listening for reactions using the specified emoji to a message posted by the bot in a read-only channel. 
 - When a user reacts with the target emoji to any message, the bot checks if the user has already used an invite.
 - If not, the bot creates a new invite link and sends it to the user via DM, marking the user as having received an invite.
+- 
 ![Invite](./invite.png "Terminal")
+
+![Reaction](./reaction.png "Terminal")
+
+![Message](./message.png "Terminal")
 
 ## Note
 
