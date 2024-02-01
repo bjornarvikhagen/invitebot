@@ -1,4 +1,4 @@
-# Discord Invite Bot README
+# Discord Invite Bot
 
 This Discord bot is designed to listen for reactions on messages within a Discord server. When a user reacts to a message with a specific emoji, the bot creates a one-time, non-expiring invite link to the server and sends it to the user via direct message (DM). Purposed for an exclusive community of traders on discord where all members can invite excactly one other person to join.
 
@@ -25,10 +25,10 @@ This Discord bot is designed to listen for reactions on messages within a Discor
 - The bot starts listening for reactions using the specified emoji to a message posted by the bot in a read-only channel. 
 - When a user reacts with the target emoji to any message, the bot checks if the user has already used an invite.
 - If not, the bot creates a new invite link and sends it to the user via DM, marking the user as having received an invite.
-- 
-![Invite](./invite.png "Terminal")
 
 ![Reaction](./reaction.png "Terminal")
+
+![Invite](./invite.png "Terminal")
 
 ![Message](./message.png "Terminal")
 
